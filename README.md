@@ -1,6 +1,6 @@
 # INT3120_20 Mobile HomeWork
 
-A new Flutter project.
+Mobile HomeWork
 
 Lesson 3 - Hello World app: Completed
 
