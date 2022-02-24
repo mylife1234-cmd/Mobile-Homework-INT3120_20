@@ -17,12 +17,12 @@ Mobile HomeWork
   - Dart là một ngôn ngữ lập trình mã nguồn mở (open source) đa năng (general purpose). Nó được phát triển bởi Google
   - Dart là một ngôn ngữ lập trình hướng đối tượng sử dụng cú pháp của C ( C-style syntax). Nó hỗ trợ các khái niệm như interface, class,..
   - Dart hỗ trợ các kiểu dữ liệu như các ngôn ngữ khác  noại trừ mảng (array). Dart collections có thể sử dụng các cấu trúc dữ liệu (data structure) thay thế
-  - Bài 6: Widget trong Flutter
-    - Trong Flutter tất các widget được phân loại dựa trên chức năng thành 4 nhóm sau:
-      - Các widget giao diện đặc thù theo từng nền tảng - Platform widgets
-      - Các widget hỗ trợ bố trí giao diện - Layout widgets
-      - Các widget quản lý trạng thái - State maintenance widgets
-      - Các widget cơ bản độc lập với nền tảng - Platform independent / basic widgets
+- Bài 6: Widget trong Flutter
+  - Trong Flutter tất các widget được phân loại dựa trên chức năng thành 4 nhóm sau:
+    - Các widget giao diện đặc thù theo từng nền tảng - Platform widgets
+    - Các widget hỗ trợ bố trí giao diện - Layout widgets
+    - Các widget quản lý trạng thái - State maintenance widgets
+    - Các widget cơ bản độc lập với nền tảng - Platform independent / basic widgets
 
 
 
