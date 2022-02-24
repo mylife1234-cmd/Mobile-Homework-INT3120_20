@@ -10,7 +10,7 @@ Mobile HomeWork
   - Widget là thành phần giao diện cơ bản nhất để tạo giao diện người dùng của ứng dụng
   - Trong ứng dụng Flutter, bản thân chính ứng dụng đã là một widget, một ứng dụng cũng có thể là tập hợp của nhiều ứng dụng nhỏ khác (nhiều widget con khác) được lồng vào nhau, liên kết với nhau để tạo ra một ứng dụng chính
   - Trong Flutter có một số widget ể quản lí trạng thái  (Stateful widget), bắt sự kiện cử chỉ người dùng (GestureDetector widget)
-- Lesson 5: Tìm hiểu về Dart
+- Bài 5: Tìm hiểu về Dart
   - Dart là một ngôn ngữ lập trình mã nguồn mở (open source) đa năng (general purpose). Nó được phát triển bởi Google
   - Dart là một ngôn ngữ lập trình hướng đối tượng sử dụng cú pháp của C ( C-style syntax). Nó hỗ trợ các khái niệm như interface, class,..
   - Dart hỗ trợ các kiểu dữ liệu như các ngôn ngữ khác  noại trừ mảng (array). Dart collections có thể sử dụng các cấu trúc dữ liệu (data structure) thay thế
