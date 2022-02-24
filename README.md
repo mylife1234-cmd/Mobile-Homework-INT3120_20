@@ -6,6 +6,9 @@ Mobile HomeWork
 - Bài 2: Cài đặt, thiết lập môi trường phát triển( Cho MacOS)
 ![image](https://user-images.githubusercontent.com/62343946/155546484-b0b826cf-ba67-4212-82a3-37f07d4e927c.png)
 - Bài 3: Tạo ứng dụng Hello World
+![Screen Shot 2022-02-24 at 10 07 43 PM](https://user-images.githubusercontent.com/62343946/155550689-13889793-5c7f-4111-9d1f-2f2daa1e7579.png)
+
+
 - Bài 4: Kiến trúc ứng dụng Flutter
   - Widget là thành phần giao diện cơ bản nhất để tạo giao diện người dùng của ứng dụng
   - Trong ứng dụng Flutter, bản thân chính ứng dụng đã là một widget, một ứng dụng cũng có thể là tập hợp của nhiều ứng dụng nhỏ khác (nhiều widget con khác) được lồng vào nhau, liên kết với nhau để tạo ra một ứng dụng chính
