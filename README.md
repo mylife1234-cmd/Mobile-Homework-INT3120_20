@@ -23,7 +23,7 @@ Mobile HomeWork
     - Các widget hỗ trợ bố trí giao diện - Layout widgets
     - Các widget quản lý trạng thái - State maintenance widgets
     - Các widget cơ bản độc lập với nền tảng - Platform independent / basic widgetA
- - Demo:
+  - Demo:
 ![Screen Shot 2022-02-24 at 10 16 36 PM](https://user-images.githubusercontent.com/62343946/155552449-1394972a-237b-4e09-af33-2a0a0333d397.png)
 
 
