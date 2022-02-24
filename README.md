@@ -4,6 +4,7 @@ Mobile HomeWork
 
 - Bài  1: Thông tin khái niệm cơ bản về Flutter
 - Bài 2: Cài đặt, thiết lập môi trường phát triển( Cho MacOS)
+![image](https://user-images.githubusercontent.com/62343946/155546484-b0b826cf-ba67-4212-82a3-37f07d4e927c.png)
 - Bài 3: Tạo ứng dụng Hello World
 - Bài 4: Kiến trúc ứng dụng Flutter
   - Widget là thành phần giao diện cơ bản nhất để tạo giao diện người dùng của ứng dụng
@@ -15,4 +16,4 @@ Mobile HomeWork
   - Dart hỗ trợ các kiểu dữ liệu như các ngôn ngữ khác  noại trừ mảng (array). Dart collections có thể sử dụng các cấu trúc dữ liệu (data structure) thay thế
 
 
-![image](https://user-images.githubusercontent.com/62343946/155546484-b0b826cf-ba67-4212-82a3-37f07d4e927c.png)
+
