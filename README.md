@@ -25,6 +25,14 @@ Mobile HomeWork
     - Các widget cơ bản độc lập với nền tảng - Platform independent / basic widgetA
   - Demo:
 ![Screen Shot 2022-02-24 at 10 16 36 PM](https://user-images.githubusercontent.com/62343946/155552449-1394972a-237b-4e09-af33-2a0a0333d397.png)
+- Bài 7: Widget trong Flutter
+  - Trong Flutter các layout cũng là một loại widget, nhiệm vụ của chúng là bố trí các widget con, tạo nên giao diện người dùng cho ứng dụng. Flutter cung cấp nhiều loại layout khác nhau như Container, Center, Align... 
+  - Trong Fluuter có hai  loại widget layout chính trong Flutter
+    - Single Child Widgets - Chỉ có một widget con
+    - Multiple Child Widgets - Có nhiều widget con
+  - Demo:
+  - ![Screen Shot 2022-03-03 at 1 13 28 AM](https://user-images.githubusercontent.com/62343946/156422848-bac8e947-a64b-43cb-aa5f-27fb5b11e8a9.png)
+
 
 
 
