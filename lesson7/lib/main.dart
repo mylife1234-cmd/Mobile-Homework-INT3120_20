@@ -65,6 +65,7 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
+
 class ProductBox extends StatelessWidget {
   ProductBox({Key? key, required this.name, required this.description, required this.price, required this.image})
       : super(key: key);
@@ -78,7 +79,7 @@ class ProductBox extends StatelessWidget {
         padding: EdgeInsets.all(2), height: 120,  child: Card(
         child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: <Widget>[
-          Image.asset("assets/images/"+image), Expanded(
+          Image.asset("assets/" + image), Expanded(
               child: Container(
                   padding: EdgeInsets.all(5), child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,

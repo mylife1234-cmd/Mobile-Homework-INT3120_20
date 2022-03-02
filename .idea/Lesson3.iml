@@ -45,6 +45,15 @@
       <excludeFolder url="file://$MODULE_DIR$/lesson6/build" />
       <excludeFolder url="file://$MODULE_DIR$/lesson6/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/lesson6/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Lesson3/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Lesson3/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Lesson3/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson6/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson6/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson6/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson7/build" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson7/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson7/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
