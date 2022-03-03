@@ -97,7 +97,16 @@ Mobile HomeWork
     - MaterialPageRoute: render giao diện người dùng nhằm thay thế toàn bộ màn hình với một hiệu ứng chuyển đặc biệt nào đó
    - Demo:
    ![Screen Shot 2022-03-03 at 8 59 42 PM](https://user-images.githubusercontent.com/62343946/156584462-bf1bab9f-b6fc-4b11-8456-5482ed6ea17f.png)
+- Bài 13: Animation
+  - Flutter animation dựa trên các đối tượng animation. Lõi của các lớp animation nó hoạt động như sau:
+    - Animation: Tạo ra giá trị và được thêm vào giữa hai số (bắt đầu và kết thúc animation). Các kiểu animation thường được sử dụng là:
+        - Animation<double>
+        - Animation<Color>
+        - Animation<Size>
+        - AnimationController: Là một đối tượng animation đặc biệt dùng để điều khiển các  hiệu ứng của chính nó. 
+    - CurvedAnimation: Nó cơ bản giống như AnimationController nhưng hỗ trợ animation phi tuyến tính( đường cong). 
+    - Tween<T>:  render giao diện người dùng nhằm thay thế toàn bộ màn hình với một hiệu ứng chuyển đặc biệt nào đó
+   - Demo:
+![Screen Shot 2022-03-03 at 11 58 39 PM](https://user-images.githubusercontent.com/62343946/156616414-e29a8ae0-1206-4c08-aef4-2748ba3953dd.png)
 
-
-   
 
