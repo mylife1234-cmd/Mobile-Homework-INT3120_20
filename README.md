@@ -33,6 +33,42 @@ Mobile HomeWork
   - Demo:
   - ![Screen Shot 2022-03-03 at 1 13 28 AM](https://user-images.githubusercontent.com/62343946/156422848-bac8e947-a64b-43cb-aa5f-27fb5b11e8a9.png)
 
+- Bài 8: Gesture trong Flutter
+  - Gesture (cử chỉ) là cách mà người dùng tương tác với các thiết bị di động. Có rất nhiều cử chỉ khác nhau như vuốt, chạm, lắc... Gesture  trong Flutter giúp ta xử lý các cử chỉ của người dùng, tương tự như việc bắt sự kiện trong Android. 
+  - Một số cử chỉ được sử dụng rộng rãi:
+    - Tap
+    - Double Tap
+    - Drag
+    - Flick
+    - Pinch
+    - Spread/Zoom
+    - Panning
+   - Flutter cung cấp một sự hỗ trợ tuyệt vời để xử lý tất cả các loại cử chỉ thông qua một tiện ích duy nhất GestureDetector.  Để xác định các cử chỉ tác động lên một widget, ta chỉ cần đặt widget đó bên trong GestureDetector widget. GestureDetector sẽ bắt các cử chỉ và gửi nhiều sự kiện dựa trên cử chỉ đó.
+   - Một số cử chỉ và các sự kiện tương ứng được đưa ra dưới đây
+    - Tap
+      - onTapDown
+      - onTapUp
+      - onTap
+      - onTapCancel
+    - Double tap
+      - onDoubleTap
+    - Long press
+      - onLongPress
+    - Vertical drag
+      - onVerticalDragStart
+      - onVerticalDragUpdate
+      - onVerticalDragEnd
+    - Horizontal drag
+      - onHorizontalDragStart
+      - onHorizontalDragUpdate
+      - onHorizontalDragEnd
+    - Pan
+      - onPanStart
+      - onPanUpdate
+      - onPanEnd
+
+  - Demo:
+![Screen Shot 2022-03-03 at 9 53 33 AM](https://user-images.githubusercontent.com/62343946/156488163-8ee6064a-b4c0-464c-a674-fc07276889fd.png)
 
 
 
