@@ -81,13 +81,23 @@ Mobile HomeWork
  
 ![Screen Shot 2022-03-03 at 10 31 25 AM](https://user-images.githubusercontent.com/62343946/156492296-72e5b333-dde5-4d64-9a7b-b8c3ecc130ec.png)
 
-- Lesson 11: ScopedModel trong Flutter
+- Bài 11: ScopedModel trong Flutter
   - Flutter có package scoped_model hỗ trợ việc quản lý trạng thái ứng dụng. Package này cung cấp 3 class chính
     - Model: Model đóng gói trạng thái của một ứng dụng. Chúng ta có thể sử dụng nhiều Model (bằng việc kế thừa Model class) để quản lý trạng thái của ứng dụng. Model có một phương thức duy nhất là notifyListeners, nó được gọi bất cứ khi nào trạng thái của Model thay đổi. notifyListeners sẽ thực hiện các công việc cần thiết để cập nhật giao diện.
     - ScopedModel: ScopedModel là một widget, chúng ta hiểu đơn giản nó là một tiện ích để chúng ta có thể dễ dàng chuyển Data Model từ widget cha xuống các widget con, cháu của nó. Ngoài ra nó còn có nhiệm vụ rebuild lại các widget con giữ các model mà trong trường hợp model này được cập nhật
     - ScopedModelDescendant: lấy Data Model từ lớp cha và build lại UI bất kí khi nào Data Model thay đổi.
    - Demo:
    ![Screen Shot 2022-03-03 at 11 19 37 AM](https://user-images.githubusercontent.com/62343946/156495741-0c3dace6-ed20-4936-8964-5b30bdc056ac.png)
+   
+- Bài 12: Navigator và Routing
+  - Navigator cũng là một widget có chức năng quản lý các trang của ứng dụng theo định dạng giống như ngăn xếp
+  - Flutter cung cấp cho chúng ta lớp Routing cơ bản - MaterialPageRoute với hai phương thức:
+    - Navigator.push: Từ một màn hình bất kì, ta muốn chuyển sang một màn hình khác
+    - Navigator.pop: Được sử dụng để quay về trang trước
+    - MaterialPageRoute: render giao diện người dùng nhằm thay thế toàn bộ màn hình với một hiệu ứng chuyển đặc biệt nào đó
+   - Demo:
+   ![Screen Shot 2022-03-03 at 8 59 42 PM](https://user-images.githubusercontent.com/62343946/156584462-bf1bab9f-b6fc-4b11-8456-5482ed6ea17f.png)
+
 
    
 
