@@ -70,5 +70,10 @@ Mobile HomeWork
   - Demo:
 ![Screen Shot 2022-03-03 at 9 53 33 AM](https://user-images.githubusercontent.com/62343946/156488163-8ee6064a-b4c0-464c-a674-fc07276889fd.png)
 
+- Bài 9:Quản lý trạng thái State trong Flutte
+  - Việc quản lý trạng thái có thể được chia làm hai loại dựa vào thời gian tồn tại của trạng thái đó trong ứng dụng
+    - Ephemeral (ngắn hạn)− Kéo dài trong vài giây như trạng thái của hiệu ứng (animation) hoặc một trang đơn như trang thông tin đánh giá sản phẩm. Flutter hỗ trợ quản lý trạng thái loại này thông qua StatefulWidget.
+    - App state (trạng thái ứng dụng) − Kéo dài trong toàn bộ ứng dụng như thông tin người dùng, thông tin giỏ hàng... Flutter hỗ trợ quản lý trạng thái loại này thông qua scoped_model
+
 
 
