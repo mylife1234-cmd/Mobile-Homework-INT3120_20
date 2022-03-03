@@ -85,10 +85,9 @@ Mobile HomeWork
   - Flutter có package scoped_model hỗ trợ việc quản lý trạng thái ứng dụng. Package này cung cấp 3 class chính
     - Model: Model đóng gói trạng thái của một ứng dụng. Chúng ta có thể sử dụng nhiều Model (bằng việc kế thừa Model class) để quản lý trạng thái của ứng dụng. Model có một phương thức duy nhất là notifyListeners, nó được gọi bất cứ khi nào trạng thái của Model thay đổi. notifyListeners sẽ thực hiện các công việc cần thiết để cập nhật giao diện.
     - ScopedModel: ScopedModel là một widget, chúng ta hiểu đơn giản nó là một tiện ích để chúng ta có thể dễ dàng chuyển Data Model từ widget cha xuống các widget con, cháu của nó. Ngoài ra nó còn có nhiệm vụ rebuild lại các widget con giữ các model mà trong trường hợp model này được cập nhật
-    - ScopedModelDescendant: lấy Data ![Screen Shot 2022-03-03 at 11 19 37 AM](https://user-images.githubusercontent.com/62343946/156495741-0c3dace6-ed20-4936-8964-5b30bdc056ac.png)
-Model từ lớp cha và build lại UI bất kí khi nào Data Model thay đổi.
+    - ScopedModelDescendant: lấy Data Model từ lớp cha và build lại UI bất kí khi nào Data Model thay đổi.
    - Demo:
-   ![Uploading Screen Shot 2022-03-03 at 11.19.37 AM.png…]()
+   ![Screen Shot 2022-03-03 at 11 19 37 AM](https://user-images.githubusercontent.com/62343946/156495741-0c3dace6-ed20-4936-8964-5b30bdc056ac.png)
 
    
 
