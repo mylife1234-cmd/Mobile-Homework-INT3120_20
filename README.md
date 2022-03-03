@@ -75,7 +75,7 @@ Mobile HomeWork
     - Ephemeral (ngắn hạn)− Kéo dài trong vài giây như trạng thái của hiệu ứng (animation) hoặc một trang đơn như trang thông tin đánh giá sản phẩm. Flutter hỗ trợ quản lý trạng thái loại này thông qua StatefulWidget.
     - App state (trạng thái ứng dụng) − Kéo dài trong toàn bộ ứng dụng như thông tin người dùng, thông tin giỏ hàng... Flutter hỗ trợ quản lý trạng thái loại này thông qua scoped_model
 
-- Bài 9:Quản lý trạng thái State trong Flutte
+- Bài 10: Statefulwidget trong Flutter
   - Mấu chốt của việc quản lý trạng thái là Statefulwidget. Widget được kế thừa từ Statefulwidget để duy trì trạng thái và quản lý các trạng thái con của nó
   - Demo:
  
