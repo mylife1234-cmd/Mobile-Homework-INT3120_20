@@ -100,9 +100,9 @@ Mobile HomeWork
 - Bài 13: Animation
   - Flutter animation dựa trên các đối tượng animation. Lõi của các lớp animation nó hoạt động như sau:
     - Animation: Tạo ra giá trị và được thêm vào giữa hai số (bắt đầu và kết thúc animation). Các kiểu animation thường được sử dụng là:
-        - Animation<double>
-        - Animation<Color>
-        - Animation<Size>
+        - Animation <double>
+        - Animation <Color>
+        - Animation <Size>
         - AnimationController: Là một đối tượng animation đặc biệt dùng để điều khiển các  hiệu ứng của chính nó. 
     - CurvedAnimation: Nó cơ bản giống như AnimationController nhưng hỗ trợ animation phi tuyến tính( đường cong). 
     - Tween<T>:  render giao diện người dùng nhằm thay thế toàn bộ màn hình với một hiệu ứng chuyển đặc biệt nào đó
