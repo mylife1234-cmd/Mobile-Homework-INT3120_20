@@ -1,6 +1,6 @@
-# lutter_browser_ios_app
+# lesson16_example
 
-A new Flutter project.
+Demonstrates how to use the lesson16 plugin.
 
 ## Getting Started
 
