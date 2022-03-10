@@ -114,7 +114,21 @@ Mobile HomeWork
   - Demo:
   ![Screen Shot 2022-03-10 at 3 38 59 PM](https://user-images.githubusercontent.com/62343946/157636061-873e7cf7-6df4-4298-bd51-af2719ad0156.png)
   ![Screen Shot 2022-03-10 at 3 39 14 PM](https://user-images.githubusercontent.com/62343946/157636109-196b39ca-c675-44da-bf90-1658ba0decde.png)
-
+- Bài 15: Code native vs IOS
+  - Việc truy cập vào các nền tảng riêng của hệ điều hành IOS cũng giống như Android nhưng ta sẽ sử dụng object C hay swift (ngôn ngữ dành riêng cho lập trình IOS)  và IOS sdk
+  -Demo:
+  
+![Screen Shot 2022-03-10 at 5 31 24 PM](https://user-images.githubusercontent.com/62343946/157653213-5a289da3-ef9f-4606-9786-66694ce99804.png)
+![Screen Shot 2022-03-10 at 5 37 57 PM](https://user-images.githubusercontent.com/62343946/157653227-d1c51b28-6577-4162-9041-f575460fb613.png)
+Bà 16: Giới thiệu về package
+ - Dart Package là một thư viện hay mô hình đơn giản có thể chia sẻ. Về cơ bản, Dart Package tương tự Dart Application, tuy nhiên nó không truy cập vào các điểm chính của ứng dụng
+ - Các kiểu package:
+   - Dart package: có thể sử dụng trên nhiều môi trường
+   - Flutter package: phụ thuộc vào Flutter framework, có thể chỉ sử dụng trong môi trường mobile
+   - Flutter plugin: phụ thuộc vào Flutter framework và cả nền tảng (iOS SDK hay Android SDK)
+  Demo:
+  ![Screen Shot 2022-03-10 at 3 38 59 PM](https://user-images.githubusercontent.com/62343946/157654376-491961cb-f0fa-4eb5-96bd-12a1b53887f8.png)
+![Screen Shot 2022-03-10 at 3 39 14 PM](https://user-images.githubusercontent.com/62343946/157654385-c798429e-c570-4b85-b970-9d562cb77ca0.png)
 
   
 
