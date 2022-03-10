@@ -108,5 +108,13 @@ Mobile HomeWork
     - Tween<T>:  render giao diện người dùng nhằm thay thế toàn bộ màn hình với một hiệu ứng chuyển đặc biệt nào đó
    - Demo:
 ![Screen Shot 2022-03-03 at 11 58 39 PM](https://user-images.githubusercontent.com/62343946/156616414-e29a8ae0-1206-4c08-aef4-2748ba3953dd.png)
+- Bài 14: Code native vs Android
+  - Flutter cung cấp framework chung để truy cập vào các nền tảng có tính năng riêng biệt
+  -Ý tưởng chung để truy cập vào mã cụ thể của nền tảng thông qua giao thức đơn giản là messaging.Flutter code, Client, mã nền tảng và Host liên kết với một thông báo chung gọi là Message Channel
+  - Demo:
+  ![Screen Shot 2022-03-10 at 3 38 59 PM](https://user-images.githubusercontent.com/62343946/157636061-873e7cf7-6df4-4298-bd51-af2719ad0156.png)
+  ![Screen Shot 2022-03-10 at 3 39 14 PM](https://user-images.githubusercontent.com/62343946/157636109-196b39ca-c675-44da-bf90-1658ba0decde.png)
 
+
+  
 
