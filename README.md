@@ -179,10 +179,10 @@ Bà 19: Chuyển đổi ngôn ngữ
 Demo: 
  ![Screen Shot 2022-03-11 at 10 26 39 AM](https://user-images.githubusercontent.com/62343946/157813713-b3d6fa6a-dc7a-421a-bd3f-75a94d181f1e.png)
   
-Bài 21 Xuất ứng dụng trong Flutter
-Bài 22: Công cụ phát triển
-  Đang lỗ 
-Bà 23:
+- Bài 21 Xuất ứng dụng trong Flutter
+- Bài 22: Công cụ phát triển
+  - Đang lỗi 
+- Bài 23:
   ![Screen Shot 2022-03-11 at 11 29 11 AM](https://user-images.githubusercontent.com/62343946/157813864-9c88e66e-95e9-4af6-88d8-cb787dfc9bb6.png)
   ![Screen Shot 2022-03-11 at 11 29 41 AM](https://user-images.githubusercontent.com/62343946/157813886-59aba391-ccb0-4c7a-8d68-4632c598bd63.png)
 
