@@ -181,7 +181,9 @@ Demo:
   
 - Bài 21 Xuất ứng dụng trong Flutter
 - Bài 22: Công cụ phát triển
-  - Đang lỗi 
+  - Demo:
+  ![Screen Shot 2022-03-11 at 1 30 57 PM](https://user-images.githubusercontent.com/62343946/157814820-795bc02a-2fda-498d-9645-75fc5b86ab9e.png)
+
 - Bài 23:
   ![Screen Shot 2022-03-11 at 11 29 11 AM](https://user-images.githubusercontent.com/62343946/157813864-9c88e66e-95e9-4af6-88d8-cb787dfc9bb6.png)
   ![Screen Shot 2022-03-11 at 11 29 41 AM](https://user-images.githubusercontent.com/62343946/157813886-59aba391-ccb0-4c7a-8d68-4632c598bd63.png)
