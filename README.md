@@ -130,5 +130,68 @@ Bà 16: Giới thiệu về package
   ![Screen Shot 2022-03-10 at 3 38 59 PM](https://user-images.githubusercontent.com/62343946/157654376-491961cb-f0fa-4eb5-96bd-12a1b53887f8.png)
 ![Screen Shot 2022-03-10 at 3 39 14 PM](https://user-images.githubusercontent.com/62343946/157654385-c798429e-c570-4b85-b970-9d562cb77ca0.png)
 
+ Bà 17:Rest API
+  - Flutter cung cấp package http, http là một thư viện Future-based sử dụng await và async. Nó cung cấp phương thức cấp cao và đơn giản để phát triển REST
+    - Lớp http cung cấp chức năng để làm việc với tất cả các kiểu dữ liệu HTTP được request
+    - Phương thức http có sử dụng url, và bổ sung thông tin thông qua Dart Map
+  - Một vài phương thức chính:
+    - read: gửi yêu cầu sử dụng phương thức GET và trả về Future
+    - get: gửi yêu cầu sử dụng phương thức GET và trả về Future. Response là lớp giữ lại các thông tin phản hồi
+    - post: gửi yêu cầu sử dụng phương thức POST, đưa giá trị lên sever và phản hồi Future
+    - put: gửi yêu cầu sử dụng phương thức PUT và trả về phản hồi Future
+    - head: gửi yêu cầu sử dụng phương thức HEAD và trả về phản hồi Future
+    - delete: gửi yêu cầu sử dụng phương thức DELETE và trả về phản hồi Future
+Demo (yêu cầu chạy http server tại thư mục JSONWebServer và thay địa chỉ tại dòng 15 tệp main.dart)
+  ![Screen Shot 2022-03-11 at 1 13 30 PM](https://user-images.githubusercontent.com/62343946/157812730-c24fd0ec-95e2-4a29-9970-c2a7eb9525d2.png)
+  Bà 18: Khái niệm về Database
+  - Flutter hỗ trợ 1 vài gói để làm việc với cơ sở dữ liệu (database), ví dụ như: sqflite (SQLlite database), firebase_database (NoSQL database từ Google)
+- SQLite: là một SQL tiêu chuẩn dựa trên công cụ cơ sở dữ liệu nhúng. Gói sqflite cung cấp nhiều chức năng để làm việc hiệu quả với SQLite database. Gói sqflite có các chức năng chính như:
+    - Tạo/mở SQLite database
+    - Thực thi SQL statement
+    - Phương thức truy vấn nâng cao
+  -Demo:![Screen Shot 2022-03-11 at 10 03 17 AM](https://user-images.githubusercontent.com/62343946/157813058-dac9a82e-cf4b-482f-b02e-835a95a40d27.png)
+Bà 19: Chuyển đổi ngôn ngữ
+  - Hiện nay, các ứng dụng có thể được sử dụng từ nhiều nơi trên thế giới, vì thế các ứng dụng phải hiển thị nội dung phù hợp với ngôn ngữ của quốc gia đó
+- Flutter hỗ trợ ứng dụng làm việc với đa ngôn ngữ (Internationalizing). Trong đó, có thể kể đến 3 lớp localization:
+    - Locale: lớp được sử dụng để nhận diện ngôn ngữ người sử dụng    
+    - Localizations: widget chung được sử dụng để set Locale và nguồn localized của lớp con
+    - LocalizationsDelegate: lớp factory thông qua widget Localizations được tải. Nó có 3 phương thức overridable như sau:
+      - isSupported: Chấp nhận một biến kiểu Locale và kiểm tra locale đó có được hỗ trợ không
+      - load: Chấp nhận ngôn ngữ được chọn và tải dữ liệu tương ứng ngôn ngữ đó
+      - shouldReload: Liệu có nên tải lại khi widget Localizations được rebuild
+  -Demo:
+  ![Screen Shot 2022-03-11 at 10 30 15 AM](https://user-images.githubusercontent.com/62343946/157813355-bb329b63-13c5-4e47-9c24-0d6eaaa99f97.png)
+  Bà 20:Kiểm thử
+- Thông thườngtrong fluuter, có 3 loại kiểm thử:
+  - Unit Testing: phương pháp testing đơn giản nhất, dựa trên việc đảm bảo độ chính xác của một đoạn code. Hoạt động không thực sự hiệu quả trên môi trường thật
+  - Widget Testing: dựa trên việc đảm bảo độ chính xác trong việc tạo, render hay tương tác của widget với widget khác như mong đợi. Nó hoạt động từng bước và cung cấp gần như thời gian thực trong việc tìm lỗi
+  - Integration Testing: bao gồm cả hai unit testing và widget testing cùng với các thành phần bên ngoài ứng dụng như database, web service,.. Nó mô phỏng hoặc giả lập môi trường thực để tìm ra gần như tất cả các lỗi.
+- Flutter cung cấp phương thức testWidgets để kiểm thử các widget. Nó chấp nhận 2 tham số: test decription và test code
+- Flutter framework cung cấp nhiều tính năng để tìm đến widget render trong môi trường testing và gọi chung là Finders.Chúng ta hầu như thường xuyên sử dụng sử dụng finders là find.text, find.byKey và find.byWidget
+  - find.text: để tìm widget mà chứa đoạn text cụ thể
+  - find.byKey: để tìm widget chứa các key cụ thể
+  - find.byWidget: để tìm wiget theo biến thể của nó
+- Flutter framework cung cấp nhiều tính năng để phù hợp widget với widget dự kiến và gọi là Matchers. Một vài điều quan trọng về matchers:
+  - findsOneWidget: Xác minh widget duy nhất được tìm thấy
+  - findsNothing: Xác minh không wiget nào được tìm thấy
+  - findsWidgets: Xác minh nhiều hơn một wiget được tìm thấy
+  - findsNWidgets: Xác minh N widget tìm thấy
+Demo: 
+ ![Screen Shot 2022-03-11 at 10 26 39 AM](https://user-images.githubusercontent.com/62343946/157813713-b3d6fa6a-dc7a-421a-bd3f-75a94d181f1e.png)
+  
+Bài 21 Xuất ứng dụng trong Flutter
+Bài 22: Công cụ phát triển
+  Đang lỗ 
+Bà 23:
+  ![Screen Shot 2022-03-11 at 11 29 11 AM](https://user-images.githubusercontent.com/62343946/157813864-9c88e66e-95e9-4af6-88d8-cb787dfc9bb6.png)
+  ![Screen Shot 2022-03-11 at 11 29 41 AM](https://user-images.githubusercontent.com/62343946/157813886-59aba391-ccb0-4c7a-8d68-4632c598bd63.png)
+
+
+
+  
+  
+
+
+  
   
 
